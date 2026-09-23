@@ -1,56 +1,34 @@
-# 🏠 Intelligent Home: Gesture-Controlled Automation
+# Intelligent Home: Gesture-Controlled Automation
 
-This is a legacy project built around **2016**, focusing on automating smart home appliances using **gesture recognition**. It was part of an early exploration into **IoT** and **Human-Computer Interaction**.
+A [university project] from 2016 that controls home appliances using hand gestures, built with [hardware] and [language].
 
-> ⏳ Note: This project is archived and no longer actively maintained. It remains here for reference and inspiration.
+> This project is archived and kept for reference. It is no longer maintained.
 
----
+## About
 
-## ✨ Features
+An early project exploring IoT and human-computer interaction. [Sensor] detects hand gestures, and [board] switches appliances such as lights and fans on and off through relay modules.
 
-- Control home appliances with hand gestures
-- Gesture recognition via sensors (e.g., accelerometers or cameras)
-- Real-time appliance switching (lights, fans, etc.)
-- Low-cost prototype for smart home automation
+## Features
 
----
+- Appliance control with hand gestures
+- Gesture recognition using [sensor]
+- Real-time switching of lights and fans
+- Low-cost hardware prototype
 
-## 🛠️ Technologies & Tools Used
+## Built With
 
-- Arduino / Raspberry Pi (depending on your hardware)
-- C# for microcontroller programming
-- Sensors: Accelerometer, IR, or camera module
-- Relay modules for controlling appliances
+- **[Arduino / Raspberry Pi]** – [microcontroller / main controller]
+- **[C / C++ / C# / Python]** – [what it was used for]
+- **[Sensor]** – gesture detection
+- **Relay modules** – switching AC appliances
 
----
+## What I Learned
 
-## 📚 Background
+- Integrating hardware and software
+- Processing sensor data in real time
+- Applying IoT concepts to a working prototype
+- Working safely with AC-powered appliances
 
-This project was developed in 2016 as part of a research or academic exploration into IoT-based home automation. It showcases an early understanding of hardware-software integration and creative approaches to user interaction.
+## Disclaimer
 
----
-
-## 🔍 Lessons Learned
-
-- Embedded systems integration
-- Sensor data processing
-- Real-world application of IoT concepts
-- Basic safety with AC appliance control
-
----
-
-## 🚫 Disclaimer
-
-This project is **not intended for commercial or production use**. It is an educational prototype only. Always follow safety guidelines when working with electrical components.
-
----
-
-## 📦 Status
-
-> 📌 Archived — No further development planned.
-
----
-
-## 🙋 About Me
-
-I'm passionate about tech innovation and building smart solutions. Today, I work on software engineering, data science, and automation — but this project represents where the journey began.
+This is an educational prototype and isn't intended for production use. Follow proper electrical safety guidelines when working with mains-powered components.
