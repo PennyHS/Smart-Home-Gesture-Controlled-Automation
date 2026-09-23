@@ -1,32 +1,41 @@
 # Intelligent Home: Gesture-Controlled Automation
 
-A [university project] from 2016 that controls home appliances using hand gestures, built with [hardware] and [language].
+A final-year capstone project from 2016 at Ming Chuan University that controls home appliances using hand gestures, built with a Leap Motion controller, C#, and Arduino.
 
 > This project is archived and kept for reference. It is no longer maintained.
 
 ## About
 
-An early project exploring IoT and human-computer interaction. [Sensor] detects hand gestures, and [board] switches appliances such as lights and fans on and off through relay modules.
+An early project exploring IoT and human-computer interaction. A Leap Motion controller tracks hand gestures, a C# application interprets them and sends commands over Bluetooth to an Arduino, and the Arduino switches appliances such as lights and fans through relay modules.
+
+## How It Works
+
+1. **Gesture tracking** – the Leap Motion controller captures hand movements.
+2. **Gesture processing** – a C# application recognises the gesture and maps it to a command.
+3. **Wireless control** – the command is sent to the Arduino over Bluetooth.
+4. **Appliance switching** – the Arduino triggers relay modules to turn appliances on or off.
 
 ## Features
 
 - Appliance control with hand gestures
-- Gesture recognition using [sensor]
+- Gesture recognition using a Leap Motion controller
+- Wireless control over Bluetooth
 - Real-time switching of lights and fans
 - Low-cost hardware prototype
 
 ## Built With
 
-- **[Arduino / Raspberry Pi]** – [microcontroller / main controller]
-- **[C / C++ / C# / Python]** – [what it was used for]
-- **[Sensor]** – gesture detection
+- **Leap Motion** – hand and gesture tracking
+- **C#** – gesture recognition and command logic
+- **Arduino** – receiving commands and controlling relays
+- **Bluetooth module** – wireless communication between PC and Arduino
 - **Relay modules** – switching AC appliances
 
 ## What I Learned
 
 - Integrating hardware and software
 - Processing sensor data in real time
-- Applying IoT concepts to a working prototype
+- Wireless communication between devices
 - Working safely with AC-powered appliances
 
 ## Disclaimer
